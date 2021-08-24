@@ -1,0 +1,122 @@
+/* Colors and fonts */
+body { 
+	background: #49111C;
+	color: #49111C;
+	font-family: 'Lora', serif;
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;;
+}
+h1 {
+	color: #49111C;
+	font-size: 32px;
+	font-weight: 900;
+}
+h2 {
+	color: #0A0908;
+	font-size: 24px;
+	font-weight: lighter;
+	font-weight: 400;
+}
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #49111C;
+	font-weight: 600;
+	font-size: 16px;
+}
+a:hover {
+	color: #0A0908;
+}
+
+div {
+	background: #A9927D;
+	padding: 30px;
+	margin: 20px 0px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	border: 2px solid black;
+	width: 1000px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+
+/* Custom design with class */
+
+.img-wide {
+	width: 1000px;
+	height: auto;
+}
+
+.btn-black {
+	background-color: #49111C;
+	color: #A9927D ;
+	padding: 15px 20px;
+	border-radius: 4px;
+
+}
+.btn-black:hover {
+	background-color: #0A0908;
+	color: #A9927D ;
+
+}
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 60px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+
+}
+
+@media (max-width : 960px) {
+	div { 
+		width: 700px
+	}
+	.img-wide {
+	width: 700px;
+	height: auto;
+	}
+}
+
+@media (max-width : 720px) {
+	div { 
+		width: 500px
+	}
+	.img-wide {
+	width: 500px;
+	height: auto;
+	}
+}
+
+@media (max-width : 540px) {
+	div { 
+		width: 300px
+	}
+	.img-wide {
+	width: 300px;
+	height: auto;
+	}
+}
+
+
+
+
+
+
